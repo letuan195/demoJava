@@ -46,7 +46,7 @@ public class Main {
 
                 // next page
                 Integer totalPage = res.getTotal_pages();
-                if (page >= totalPage) {
+                if (totalPage == null || page >= totalPage) {
                     break;
                 }
                 page = page + 1;
