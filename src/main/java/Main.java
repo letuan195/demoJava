@@ -15,7 +15,7 @@ public class Main {
     private static String URL = "https://jsonmock.hackerrank.com/api/articles?author=%s&page=%d";
 
     public static void main(String[] args) {
-        List<String> results = getTitles("coloneltcb");
+        List<String> results = getTitles("epaga");
         results.forEach(System.out::println);
     }
 
